@@ -1,0 +1,11 @@
+list=[12,23,34,45,56,67,78,89,90]
+sum=0
+for i in list:
+    if i%2==0:
+        sum=sum+i
+print("the sum is",sum)
+
+
+
+output:
+the sum is 270
